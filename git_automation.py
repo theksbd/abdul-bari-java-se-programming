@@ -5,7 +5,10 @@ import subprocess
 # curdir = os.getcwd()
 
 # Navigate back to the Git root folder
-# os.chdir(os.path.join(curdir, "../../"))  
+# os.chdir(os.path.join(curdir, "../../"))
+
+# Run git status
+subprocess.run(["git", "status"])
 
 # Run git add . 
 subprocess.run(["git", "add", "."])
